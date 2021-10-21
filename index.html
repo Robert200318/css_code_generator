@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="block">
+        <div  class = "p">
+            <p>Top left corner:</p>
+            <p>Top right corner:</p>
+            <p>Bottom right corner:</p>
+            <p>Bottom left corner:</p>
+        </div>
+
+        <div class = "range">
+            <input type="range" id="tlr" min="0" max="100" value="0" oninput="fun1()"><!-- id = top left range -->
+            <input type="range" id="trr" min="0" max="100" value="0" oninput="fun1()">
+            <input type="range" id="brr" min="0" max="100" value="0" oninput="fun1()">
+            <input type="range" id="blr" min="0" max="100" value="0" oninput="fun1()">
+        </div>
+
+        <div class = "text">
+            <input type="text" id="tlt" value="0" ><!-- id = top left text -->
+            <input type="text" id="trt" value="0" >
+            <input type="text" id="brt" value="0" >
+            <input type="text" id="blt" value="0">
+        </div>
+    </div>
+    <div id="block1"></div>
+    <br>
+    <div id="block2">
+    <p id="rezult_p">
+    border-top-left-radius: 0px ; <br>
+    border-top-right-radius:0px ;<br>
+    border-bottom-right-radius:0px ;<br>
+    border-bottom-left-radius:0px ;</p>
+    </div>
+
+</body>
+<script src="main.js"></script>
+</html>

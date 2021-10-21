@@ -1,0 +1,26 @@
+#block1 {
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+#block2 {
+    height: 90px;
+    width: 220px;
+    border: 2px outset green;
+}
+.block{
+    display: flex;
+}
+.p{
+    width: 200px;
+}
+.range{
+    width: 200px;
+}
+.text{
+    width: 200px;
+}
+p{
+    margin: 2px;
+}
+
